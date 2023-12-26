@@ -2,15 +2,22 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: rgb(59, 248, 122);
+    background-color: ivory;
 }
 h1{
     font-size: 56px;
 }
 .para{
     
-    background-color: ivory;
+    background-color: rgb(236, 236, 231);
     margin-top: 10px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    
 }
 
 
