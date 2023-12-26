@@ -1,0 +1,17 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 248, 122);
+}
+h1{
+    font-size: 56px;
+}
+.para{
+    
+    background-color: ivory;
+    margin-top: 10px;
+}
+
+
+
