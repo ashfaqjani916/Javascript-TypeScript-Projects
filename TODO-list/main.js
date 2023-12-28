@@ -15,8 +15,10 @@ btn.addEventListener("click", () => {
     div.appendChild(delkey);
     container.appendChild(div);
     inp.value = "";
+    localStorage.setItem("task", val);
     delkey.addEventListener("click", () => {
         div.remove();
+        localStorage.removeItem("task", val);
     })
 });
 
